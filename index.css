@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+   
+    background-color: black;
+    color: white;
+}
+
+#top-row {
+    background-image: url("image/img1.jpg");
+    height: 20%;
+  
+    
+  
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#location, #info {
+    color: #ffffff;
+}
+
+
+#submitCity {
+    color: #ffffff;
+}
+
+#table {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+#rowDiv {
+    padding: 10px;
+}
+
+#place {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+#place:hover {background-color: rgb(255, 255, 255)}
+
+#forecastbox {
+    display: flex;
+    padding: 30px;
+    background-color: black;
+   
+}
+
+#days {
+    padding: 20px;
+}
+
+#leftRow, #rightRow {
+   padding: 20px;
+
+}
+
+#rightRow {
+    border: #ffffff 4px solid;
+    border-radius: 20px;
+}
+
+
